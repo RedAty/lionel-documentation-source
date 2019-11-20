@@ -82,7 +82,25 @@
 
 main.main-inner {
     width: 100%;
+    padding: 1rem;
 }
 body{
     color:#424242;
+}
+@media (max-width:991px){
+    .LionelPageContent{
+        display: block !important;
+    }
+    aside > .navbar-nav {
+        display: inline-block;
+    }
+    aside > .navbar-nav > li.nav-item{
+        float:left;
+        display: block;
+        margin-right: 10px;
+    }
+    .LionelPageContent > main {
+        max-width: 100%;
+        padding: 1rem 3rem;
+    }
 }
